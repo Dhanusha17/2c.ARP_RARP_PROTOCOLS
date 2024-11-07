@@ -33,8 +33,6 @@ while True:
         c.send(address[ip].encode())
     except KeyError:
         c.send("Not Found".encode()) 
-
-
 ```
 ## Server
 ```
@@ -49,12 +47,9 @@ while True:
 ## OUPUT - ARP
 ## client
 ![Screenshot 2024-10-01 090949](https://github.com/user-attachments/assets/6d272839-4cad-457f-b32d-a2d673d3bca9)
-
 ## Server
 ![Screenshot 2024-10-01 090724](https://github.com/user-attachments/assets/2718b53d-cec0-4ab4-8ee5-b582985ffa40)
-
 ## PROGRAM - RARP
-
 ## client
 ```
 import socket
@@ -69,7 +64,6 @@ while True:
         c.send(address[ip].encode())
     except KeyError:
         c.send("Not Found".encode()) 
-
 ```
 ## server
 ```
@@ -84,10 +78,8 @@ while True:
 ## OUPUT -RARP
 ## client
 ![Screenshot 2024-10-01 092447](https://github.com/user-attachments/assets/779eafe4-6881-497e-8fd0-890562589ac3)
-
 ## server
 ![Screenshot 2024-10-01 091820](https://github.com/user-attachments/assets/094f0513-640c-4e4b-9e27-b3d24c4b0d37)
-
 ## RESULT
 Thus, the python program for simulating ARP protocols using TCP was successfully 
 executed.
